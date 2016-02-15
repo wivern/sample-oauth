@@ -1,0 +1,11 @@
+spring:
+  name: authserver
+server:
+  contextPath: /uaa
+security:
+  user:
+    password: password
+  ignored: /css/**,/js/**,/favicon.ico,/webjars/**
+logging:
+  level:
+    org.springframework.security: DEBUG
